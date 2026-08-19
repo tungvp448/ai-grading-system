@@ -3,7 +3,6 @@ import docx
 from pypdf import PdfReader
 
 def extract_text_from_file(file_path: str) -> str:
-    """Đọc và trích xuất chữ từ PDF, DOCX hoặc TXT."""
     if not os.path.exists(file_path):
         raise FileNotFoundError(f"File không tồn tại: {file_path}")
 
