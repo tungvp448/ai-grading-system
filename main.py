@@ -9,7 +9,6 @@ Tuyển Gia sư môn Toán cấp 2 và cấp 3 (Luyện thi vào 10 & THPTQG):
 """
 
 def main():
-    # Lấy đường dẫn file CV từ tham số dòng lệnh hoặc dùng mặc định
     cv_file = sys.argv[1] if len(sys.argv) > 1 else "CV_NguyenVanA.pdf"
 
     print(f"🔄 Đang phân tích CV: {cv_file}...")
