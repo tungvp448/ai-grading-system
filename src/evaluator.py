@@ -20,7 +20,6 @@ Quy tắc đánh giá:
 """
 
 def evaluate_math_tutor_cv(cv_path: str, jd_text: str, model_name: str = DEFAULT_MODEL) -> CVAssessmentResult:
-    """Gửi dữ liệu CV và JD lên Gemini API để xử lý chấm điểm."""
     client = get_genai_client()
     cv_content = extract_text_from_file(cv_path)
 
