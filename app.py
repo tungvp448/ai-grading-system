@@ -20,7 +20,6 @@ with st.sidebar:
 - Kỹ năng: Kiên nhẫn, có phương pháp dạy dễ hiểu, truyền cảm hứng. Ưu tiên từng đạt giải HSG Toán các cấp."""
 
     jd_input = st.text_area("Chỉnh sửa JD tuyển dụng tại đây:", value=default_jd, height=300)
-    st.info("💡 Bạn có thể chỉnh sửa JD linh hoạt cho từng đợt tuyển dụng.")
 
 st.subheader("📁 Tải lên CV Ứng viên")
 uploaded_file = st.file_uploader(
